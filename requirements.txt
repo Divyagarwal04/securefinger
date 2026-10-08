@@ -1,0 +1,16 @@
+numpy
+opencv-python-headless
+torch
+torchvision
+tenseal>=0.3.14
+cryptography>=42
+fastapi
+uvicorn
+httpx
+pyjwt
+pytest
+streamlit
+onnx
+onnxscript
+onnxruntime
+pyobjc-framework-LocalAuthentication; sys_platform == "darwin"

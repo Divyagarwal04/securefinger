@@ -1,0 +1,50 @@
+{
+ "machine": "macOS-15.7.7-arm64-arm-64bit",
+ "cpu_count": 8,
+ "method": "rop",
+ "seconds_per_level": 20.0,
+ "users": 8,
+ "levels": [
+  {
+   "clients": 1,
+   "verifications": 829,
+   "errors": 0,
+   "throughput_per_s": 41.43561170180724,
+   "latency_ms_median": 23.851916994317435,
+   "latency_ms_p95": 25.925166002707556
+  },
+  {
+   "clients": 2,
+   "verifications": 1169,
+   "errors": 0,
+   "throughput_per_s": 58.378567989419246,
+   "latency_ms_median": 31.600250003975816,
+   "latency_ms_p95": 45.821666994015686
+  },
+  {
+   "clients": 4,
+   "verifications": 1183,
+   "errors": 0,
+   "throughput_per_s": 59.01599527934993,
+   "latency_ms_median": 52.23062499135267,
+   "latency_ms_p95": 155.1306250039488
+  },
+  {
+   "clients": 8,
+   "verifications": 1200,
+   "errors": 0,
+   "throughput_per_s": 59.631919014709645,
+   "latency_ms_median": 84.44166649860563,
+   "latency_ms_p95": 376.52554200030863
+  },
+  {
+   "clients": 16,
+   "verifications": 1181,
+   "errors": 0,
+   "throughput_per_s": 58.5940764100253,
+   "latency_ms_median": 147.33529200020712,
+   "latency_ms_p95": 1016.449583999929
+  }
+ ],
+ "audit_chain_valid": true
+}

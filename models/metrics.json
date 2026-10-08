@@ -1,0 +1,29 @@
+{
+  "dataset": "SOCOFing",
+  "split": "subject-disjoint 70/15/15",
+  "val_eer": 6.876633200385091e-05,
+  "threshold_from_val": 0.6170823689430385,
+  "test_eer": 0.00026914278024491994,
+  "test_far_at_tau": 0.00026914278024491994,
+  "test_frr_at_tau": 0.0,
+  "test_genuine_pairs": 7431,
+  "test_impostor_pairs": 7431,
+  "per_level": {
+    "easy": {
+      "eer": 0.0,
+      "frr_at_tau": 0.0,
+      "pairs": 2684
+    },
+    "medium": {
+      "eer": 0.0003883495145631068,
+      "frr_at_tau": 0.0,
+      "pairs": 2575
+    },
+    "hard": {
+      "eer": 0.00023020257826887662,
+      "frr_at_tau": 0.0,
+      "pairs": 2172
+    }
+  },
+  "epochs": 30
+}

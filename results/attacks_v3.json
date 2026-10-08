@@ -1,0 +1,126 @@
+{
+ "weights": "models/encoder.pt",
+ "test_images": 16662,
+ "per_user_known_plaintext": {
+  "one_finger/n=2": {
+   "victims": 90,
+   "inversion_eer_same_finger": 0.0,
+   "pairs_same_finger": 1374,
+   "inversion_eer_other_fingers": 0.3837602026456516,
+   "pairs_other_fingers": 14212,
+   "mean_cos_same": 0.9415513799486146,
+   "mean_cos_other": 0.05321850077808757
+  },
+  "one_finger/n=4": {
+   "victims": 90,
+   "inversion_eer_same_finger": 0.0,
+   "pairs_same_finger": 1228,
+   "inversion_eer_other_fingers": 0.34046075806678877,
+   "pairs_other_fingers": 14194,
+   "mean_cos_same": 0.9660351044593245,
+   "mean_cos_other": 0.07129255899632228
+  },
+  "one_finger/n=8": {
+   "victims": 90,
+   "inversion_eer_same_finger": 0.0,
+   "pairs_same_finger": 878,
+   "inversion_eer_other_fingers": 0.2561602365530836,
+   "pairs_other_fingers": 14204,
+   "mean_cos_same": 0.9828028744764454,
+   "mean_cos_other": 0.11061345839529163
+  },
+  "all_fingers/n=4": {
+   "victims": 90,
+   "inversion_eer_same_finger": 0.2407599533134483,
+   "pairs_same_finger": 15422,
+   "mean_cos_same": 0.39217781313909184
+  },
+  "all_fingers/n=8": {
+   "victims": 90,
+   "inversion_eer_same_finger": 0.13833664678595098,
+   "pairs_same_finger": 15090,
+   "mean_cos_same": 0.6043395660682391
+  },
+  "all_fingers/n=16": {
+   "victims": 90,
+   "inversion_eer_same_finger": 0.042256452955870105,
+   "pairs_same_finger": 14412,
+   "mean_cos_same": 0.8453059735157369
+  },
+  "all_fingers/n=32": {
+   "victims": 90,
+   "inversion_eer_same_finger": 0.008786739313943673,
+   "pairs_same_finger": 13031,
+   "mean_cos_same": 0.9441912850349901
+  },
+  "all_fingers/n=64": {
+   "victims": 90,
+   "inversion_eer_same_finger": 9.718172983479106e-05,
+   "pairs_same_finger": 10290,
+   "mean_cos_same": 0.9877475588724409
+  }
+ },
+ "collection_linkage": {
+  "records": 900,
+  "plaintext_upper_bound": {
+   "top1": 0.9977777777777778,
+   "auc": 0.9999961617160357
+  },
+  "shared_key/no_alignment": {
+   "top1": 0.0,
+   "auc": 0.4722930855957923
+  },
+  "shared_key/seeded_m=8": {
+   "top1": 0.08295964125560538,
+   "auc": 0.8568495524643681
+  },
+  "shared_key/seeded_m=16": {
+   "top1": 0.4106334841628959,
+   "auc": 0.9756640408241752
+  },
+  "shared_key/seeded_m=32": {
+   "top1": 0.9631336405529954,
+   "auc": 0.9994527988094302
+  },
+  "shared_key/seeded_m=64": {
+   "top1": 0.9988038277511961,
+   "auc": 0.999993654663156
+  },
+  "shared_key/seeded_m=128": {
+   "top1": 0.9987046632124352,
+   "auc": 0.9999948531422373
+  },
+  "shared_key/blind": {
+   "top1": 0.22444444444444445,
+   "auc": 0.9600208173690933
+  },
+  "per_user_keys/no_alignment": {
+   "top1": 0.0,
+   "auc": 0.49338965654568173
+  },
+  "per_user_keys/seeded_m=8": {
+   "top1": 0.0011210762331838565,
+   "auc": 0.4969307975828316
+  },
+  "per_user_keys/seeded_m=16": {
+   "top1": 0.0022624434389140274,
+   "auc": 0.4950626559898539
+  },
+  "per_user_keys/seeded_m=32": {
+   "top1": 0.002304147465437788,
+   "auc": 0.49731431257696196
+  },
+  "per_user_keys/seeded_m=64": {
+   "top1": 0.0011961722488038277,
+   "auc": 0.5158440816222458
+  },
+  "per_user_keys/seeded_m=128": {
+   "top1": 0.0,
+   "auc": 0.5055413029307205
+  },
+  "per_user_keys/blind": {
+   "top1": 0.0022222222222222222,
+   "auc": 0.5096873934000742
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+  "accuracy_stolen_key": {
+    "plain": {
+      "test_eer": 0.00026914278024491994,
+      "tau_val": 0.6386333672791293,
+      "test_far": 0.00026914278024491994,
+      "test_frr": 0.0
+    },
+    "film": {
+      "test_eer": 0.00026914278024491994,
+      "tau_val": 0.6421202855391145,
+      "test_far": 0.00026914278024491994,
+      "test_frr": 0.0
+    },
+    "rop": {
+      "test_eer": 0.00026914278024491994,
+      "tau_val": 0.6386333241049389,
+      "test_far": 0.00026914278024491994,
+      "test_frr": 0.0
+    }
+  },
+  "accuracy_legit_key": {
+    "film": {
+      "test_eer": 0.00013457139012245997,
+      "tau_val": 0.2290686214313128,
+      "test_far": 0.0005382855604898399,
+      "test_frr": 0.0
+    },
+    "rop": {
+      "test_eer": 0.00013457139012245997,
+      "tau_val": 0.2175632994400509,
+      "test_far": 0.00026914278024491994,
+      "test_frr": 0.0
+    }
+  },
+  "linkability": {
+    "film": {
+      "auc_cosine": 0.500732,
+      "auc_absolute": 1.0
+    },
+    "rop": {
+      "auc_cosine": 0.507073,
+      "auc_absolute": 0.507287
+    }
+  },
+  "ckks": {
+    "pairs": 200,
+    "max_abs_error": 1.161706038810273e-06,
+    "mean_abs_error": 7.849115153738593e-07,
+    "server_dot_median_ms": 25.413654499971017
+  }
+}
