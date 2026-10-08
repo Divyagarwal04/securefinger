@@ -1,0 +1,6 @@
+{"tests":"27 passed (macOS)","forged_score":"refused: score ciphertext not authenticated by the server",
+ "bench_192_software":{"encoder":9.18,"he_encrypt":3.29,"server":21.79,"secure_release":1.01,"finalize":1.82,"e2e":39.19,"e2e_p95":43.22},
+ "bench_96_secure_enclave_reject":{"encoder":5.69,"server":21.65,"secure_release":19.82,"finalize":3.05,"e2e":55.71,"e2e_p95":57.28},
+ "per_user_kpa":{"one_finger":{"2":[0.0,38.38],"4":[0.0,34.05],"8":[0.0,25.62]},"all_fingers":{"4":24.08,"8":13.83,"16":4.23,"32":0.88,"64":0.01}},
+ "collection":{"plaintext":[99.78,1.0],"shared_none":[0.0,0.472],"shared_m8":[8.30,0.857],"shared_m16":[41.06,0.976],"shared_m32":[96.31,0.999],"shared_m64":[99.88,1.0],"shared_m128":[99.87,1.0],"shared_blind":[22.44,0.960],
+   "peruser_none":[0.0,0.493],"peruser_m8":[0.11,0.497],"peruser_m16":[0.23,0.495],"peruser_m32":[0.23,0.497],"peruser_m64":[0.12,0.516],"peruser_m128":[0.0,0.506],"peruser_blind":[0.22,0.510]}}

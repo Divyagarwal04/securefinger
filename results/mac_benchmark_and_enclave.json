@@ -1,0 +1,12 @@
+{"tests":"25 passed (macOS, Python 3.11)",
+ "secure_enclave":{"helper":"ok","mode_none_verified":true,"mode_biometry_verified":true,
+   "wrong_finger":"LocalAuthentication -2, enclave refused to sign",
+   "quickstart":{"genuine_score":0.9591,"impostor_score":0.0098,"presence_enforced_by_hardware":true,
+     "replay":"rejected","tamper":"bad signature","rotation":"v2 enrolled, v1 rejected","audit_chain_valid":true}},
+ "loadtest":[
+  {"clients":1,"n":829,"errors":0,"tps":41.44,"p50":23.85,"p95":25.93},
+  {"clients":2,"n":1169,"errors":0,"tps":58.38,"p50":31.60,"p95":45.82},
+  {"clients":4,"n":1183,"errors":0,"tps":59.02,"p50":52.23,"p95":155.13},
+  {"clients":8,"n":1200,"errors":0,"tps":59.63,"p50":84.44,"p95":376.53},
+  {"clients":16,"n":1181,"errors":0,"tps":58.59,"p50":147.34,"p95":1016.45}],
+ "loadtest_audit_chain_valid":true, "server_non_200":0}

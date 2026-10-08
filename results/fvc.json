@@ -1,0 +1,468 @@
+{
+ "device": "cuda",
+ "databases": {
+  "FVC2000_DB1_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2000_DB2_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2000_DB3_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2000_DB4_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2002_DB1_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2002_DB2_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2002_DB3_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2002_DB4_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2004_DB1_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2004_DB2_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2004_DB3_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "FVC2004_DB4_B": {
+   "fingers": 10,
+   "images": 80
+  },
+  "NT_CrossMatch": {
+   "fingers": 51,
+   "images": 408
+  },
+  "NT_UareU": {
+   "fingers": 65,
+   "images": 520
+  }
+ },
+ "real_databases": [
+  "FVC2000_DB1_B",
+  "FVC2000_DB2_B",
+  "FVC2000_DB3_B",
+  "FVC2002_DB1_B",
+  "FVC2002_DB2_B",
+  "FVC2002_DB3_B",
+  "FVC2004_DB1_B",
+  "FVC2004_DB2_B",
+  "FVC2004_DB3_B",
+  "NT_CrossMatch",
+  "NT_UareU"
+ ],
+ "zero_shot": {
+  "FVC2000_DB1_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.19947916666666665,
+   "fnmr_at_fmr_1e-2": 0.6571428571428571,
+   "fnmr_at_fmr_1e-3": 0.7892857142857143
+  },
+  "FVC2000_DB2_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.2427827380952381,
+   "fnmr_at_fmr_1e-2": 0.675,
+   "fnmr_at_fmr_1e-3": 0.8357142857142857
+  },
+  "FVC2000_DB3_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.24647817460317462,
+   "fnmr_at_fmr_1e-2": 0.8,
+   "fnmr_at_fmr_1e-3": 0.925
+  },
+  "FVC2000_DB4_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.3607390873015873,
+   "fnmr_at_fmr_1e-2": 0.8785714285714286,
+   "fnmr_at_fmr_1e-3": 0.9607142857142857
+  },
+  "FVC2002_DB1_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.36143353174603177,
+   "fnmr_at_fmr_1e-2": 0.8642857142857143,
+   "fnmr_at_fmr_1e-3": 0.925
+  },
+  "FVC2002_DB2_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.41073908730158726,
+   "fnmr_at_fmr_1e-2": 0.8928571428571429,
+   "fnmr_at_fmr_1e-3": 0.9357142857142857
+  },
+  "FVC2002_DB3_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.3396081349206349,
+   "fnmr_at_fmr_1e-2": 0.8035714285714286,
+   "fnmr_at_fmr_1e-3": 0.9357142857142857
+  },
+  "FVC2002_DB4_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.3892609126984127,
+   "fnmr_at_fmr_1e-2": 0.9607142857142857,
+   "fnmr_at_fmr_1e-3": 0.9892857142857143
+  },
+  "FVC2004_DB1_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.41408730158730156,
+   "fnmr_at_fmr_1e-2": 0.9642857142857143,
+   "fnmr_at_fmr_1e-3": 0.9928571428571429
+  },
+  "FVC2004_DB2_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.41443452380952384,
+   "fnmr_at_fmr_1e-2": 0.9464285714285714,
+   "fnmr_at_fmr_1e-3": 0.9964285714285714
+  },
+  "FVC2004_DB3_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.39347718253968256,
+   "fnmr_at_fmr_1e-2": 0.8678571428571429,
+   "fnmr_at_fmr_1e-3": 0.9607142857142857
+  },
+  "FVC2004_DB4_B": {
+   "genuine_pairs": 280,
+   "impostor_pairs": 2880,
+   "eer": 0.36795634920634923,
+   "fnmr_at_fmr_1e-2": 0.9142857142857143,
+   "fnmr_at_fmr_1e-3": 0.9892857142857143
+  },
+  "NT_CrossMatch": {
+   "genuine_pairs": 1428,
+   "impostor_pairs": 20000,
+   "eer": 0.17503501400560223,
+   "fnmr_at_fmr_1e-2": 0.5679271708683473,
+   "fnmr_at_fmr_1e-3": 0.7661064425770309
+  },
+  "NT_UareU": {
+   "genuine_pairs": 1820,
+   "impostor_pairs": 20000,
+   "eer": 0.2330085164835165,
+   "fnmr_at_fmr_1e-2": 0.6868131868131868,
+   "fnmr_at_fmr_1e-3": 0.8527472527472527
+  },
+  "pooled_real": {
+   "genuine_pairs": 5768,
+   "impostor_pairs": 65920,
+   "eer": 0.2866689060332871,
+   "fnmr_at_fmr_1e-2": 0.7780859916782247,
+   "fnmr_at_fmr_1e-3": 0.9112343966712899
+  }
+ },
+ "fine_tuned": {
+  "protocol": "2-fold finger-disjoint CV over pooled real databases",
+  "epochs": 40,
+  "runs": [
+   {
+    "seed": 0,
+    "pooled_real": {
+     "genuine_pairs": 5768,
+     "impostor_pairs": 83936,
+     "eer": 0.23676996257104682,
+     "fnmr_at_fmr_1e-2": 0.7163661581137309,
+     "fnmr_at_fmr_1e-3": 0.8925104022191401
+    },
+    "per_db": {
+     "NT_CrossMatch": {
+      "genuine_pairs": 1428,
+      "impostor_pairs": 30944,
+      "eer": 0.17913624213904797,
+      "fnmr_at_fmr_1e-2": 0.5749299719887955,
+      "fnmr_at_fmr_1e-3": 0.7983193277310925
+     },
+     "FVC2002_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.37864583333333335,
+      "fnmr_at_fmr_1e-2": 0.85,
+      "fnmr_at_fmr_1e-3": 0.9357142857142857
+     },
+     "NT_UareU": {
+      "genuine_pairs": 1820,
+      "impostor_pairs": 40000,
+      "eer": 0.16046978021978023,
+      "fnmr_at_fmr_1e-2": 0.5467032967032966,
+      "fnmr_at_fmr_1e-3": 0.7796703296703297
+     },
+     "FVC2004_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1856,
+      "eer": 0.41063731527093594,
+      "fnmr_at_fmr_1e-2": 0.9392857142857143,
+      "fnmr_at_fmr_1e-3": 0.9892857142857143
+     },
+     "FVC2000_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.1927827380952381,
+      "fnmr_at_fmr_1e-2": 0.6928571428571428,
+      "fnmr_at_fmr_1e-3": 0.7892857142857143
+     },
+     "FVC2000_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.15342261904761906,
+      "fnmr_at_fmr_1e-2": 0.5071428571428571,
+      "fnmr_at_fmr_1e-3": 0.6071428571428571
+     },
+     "FVC2002_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.38958333333333334,
+      "fnmr_at_fmr_1e-2": 0.8678571428571429,
+      "fnmr_at_fmr_1e-3": 0.9178571428571428
+     },
+     "FVC2000_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.21063988095238095,
+      "fnmr_at_fmr_1e-2": 0.6142857142857143,
+      "fnmr_at_fmr_1e-3": 0.7821428571428571
+     },
+     "FVC2002_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1536,
+      "eer": 0.32428385416666666,
+      "fnmr_at_fmr_1e-2": 0.8428571428571429,
+      "fnmr_at_fmr_1e-3": 0.9678571428571429
+     },
+     "FVC2004_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1536,
+      "eer": 0.403608630952381,
+      "fnmr_at_fmr_1e-2": 0.9535714285714286,
+      "fnmr_at_fmr_1e-3": 0.9964285714285714
+     },
+     "FVC2004_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.375,
+      "fnmr_at_fmr_1e-2": 0.8107142857142857,
+      "fnmr_at_fmr_1e-3": 0.925
+     }
+    }
+   },
+   {
+    "seed": 1,
+    "pooled_real": {
+     "genuine_pairs": 5768,
+     "impostor_pairs": 88352,
+     "eer": 0.24919486566406168,
+     "fnmr_at_fmr_1e-2": 0.7106449375866851,
+     "fnmr_at_fmr_1e-3": 0.8668515950069348
+    },
+    "per_db": {
+     "NT_UareU": {
+      "genuine_pairs": 1820,
+      "impostor_pairs": 40000,
+      "eer": 0.16046978021978023,
+      "fnmr_at_fmr_1e-2": 0.5593406593406594,
+      "fnmr_at_fmr_1e-3": 0.7747252747252747
+     },
+     "NT_CrossMatch": {
+      "genuine_pairs": 1428,
+      "impostor_pairs": 36192,
+      "eer": 0.1777259146364116,
+      "fnmr_at_fmr_1e-2": 0.5546218487394958,
+      "fnmr_at_fmr_1e-3": 0.7457983193277311
+     },
+     "FVC2002_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1280,
+      "eer": 0.325,
+      "fnmr_at_fmr_1e-2": 0.8785714285714286,
+      "fnmr_at_fmr_1e-3": 0.9678571428571429
+     },
+     "FVC2000_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1536,
+      "eer": 0.16417410714285713,
+      "fnmr_at_fmr_1e-2": 0.5964285714285714,
+      "fnmr_at_fmr_1e-3": 0.7964285714285714
+     },
+     "FVC2000_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1280,
+      "eer": 0.2212611607142857,
+      "fnmr_at_fmr_1e-2": 0.5821428571428572,
+      "fnmr_at_fmr_1e-3": 0.7464285714285714
+     },
+     "FVC2000_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.1494047619047619,
+      "fnmr_at_fmr_1e-2": 0.4107142857142857,
+      "fnmr_at_fmr_1e-3": 0.6285714285714286
+     },
+     "FVC2004_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.2930059523809524,
+      "fnmr_at_fmr_1e-2": 0.7321428571428571,
+      "fnmr_at_fmr_1e-3": 0.8178571428571428
+     },
+     "FVC2002_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.36078869047619044,
+      "fnmr_at_fmr_1e-2": 0.9,
+      "fnmr_at_fmr_1e-3": 0.9428571428571428
+     },
+     "FVC2002_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.43913690476190476,
+      "fnmr_at_fmr_1e-2": 0.8571428571428571,
+      "fnmr_at_fmr_1e-3": 0.9178571428571428
+     },
+     "FVC2004_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.36078869047619044,
+      "fnmr_at_fmr_1e-2": 0.8964285714285715,
+      "fnmr_at_fmr_1e-3": 0.9785714285714285
+     },
+     "FVC2004_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.35349702380952386,
+      "fnmr_at_fmr_1e-2": 0.9607142857142857,
+      "fnmr_at_fmr_1e-3": 1.0
+     }
+    }
+   },
+   {
+    "seed": 2,
+    "pooled_real": {
+     "genuine_pairs": 5768,
+     "impostor_pairs": 88992,
+     "eer": 0.23453713335388093,
+     "fnmr_at_fmr_1e-2": 0.837378640776699,
+     "fnmr_at_fmr_1e-3": 0.9920249653259362
+    },
+    "per_db": {
+     "FVC2004_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.44241071428571427,
+      "fnmr_at_fmr_1e-2": 0.9214285714285714,
+      "fnmr_at_fmr_1e-3": 0.95
+     },
+     "FVC2000_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1856,
+      "eer": 0.29298029556650246,
+      "fnmr_at_fmr_1e-2": 0.8321428571428572,
+      "fnmr_at_fmr_1e-3": 0.925
+     },
+     "NT_CrossMatch": {
+      "genuine_pairs": 1428,
+      "impostor_pairs": 34784,
+      "eer": 0.17487402044534464,
+      "fnmr_at_fmr_1e-2": 0.553921568627451,
+      "fnmr_at_fmr_1e-3": 0.7759103641456583
+     },
+     "FVC2002_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1856,
+      "eer": 0.3920104679802956,
+      "fnmr_at_fmr_1e-2": 0.925,
+      "fnmr_at_fmr_1e-3": 0.9821428571428571
+     },
+     "NT_UareU": {
+      "genuine_pairs": 1820,
+      "impostor_pairs": 40000,
+      "eer": 0.16018255494505496,
+      "fnmr_at_fmr_1e-2": 0.506043956043956,
+      "fnmr_at_fmr_1e-3": 0.6989010989010989
+     },
+     "FVC2002_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1856,
+      "eer": 0.4321274630541872,
+      "fnmr_at_fmr_1e-2": 0.9714285714285714,
+      "fnmr_at_fmr_1e-3": 0.9928571428571429
+     },
+     "FVC2004_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.37135416666666665,
+      "fnmr_at_fmr_1e-2": 0.9535714285714286,
+      "fnmr_at_fmr_1e-3": 0.975
+     },
+     "FVC2002_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1536,
+      "eer": 0.30721726190476195,
+      "fnmr_at_fmr_1e-2": 0.8285714285714286,
+      "fnmr_at_fmr_1e-3": 0.9285714285714286
+     },
+     "FVC2000_DB3_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1536,
+      "eer": 0.1675874255952381,
+      "fnmr_at_fmr_1e-2": 0.5214285714285715,
+      "fnmr_at_fmr_1e-3": 0.6607142857142857
+     },
+     "FVC2004_DB2_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1344,
+      "eer": 0.32507440476190474,
+      "fnmr_at_fmr_1e-2": 0.9392857142857143,
+      "fnmr_at_fmr_1e-3": 0.975
+     },
+     "FVC2000_DB1_B": {
+      "genuine_pairs": 280,
+      "impostor_pairs": 1536,
+      "eer": 0.14921875,
+      "fnmr_at_fmr_1e-2": 0.44285714285714284,
+      "fnmr_at_fmr_1e-3": 0.6142857142857143
+     }
+    }
+   }
+  ],
+  "summary": {
+   "eer": {
+    "mean": 0.24016732052966314,
+    "std": 0.007897392604110513
+   },
+   "fnmr_at_fmr_1e-2": {
+    "mean": 0.7547965788257051,
+    "std": 0.0715753505624536
+   },
+   "fnmr_at_fmr_1e-3": {
+    "mean": 0.9171289875173371,
+    "std": 0.0661184483772715
+   }
+  }
+ }
+}

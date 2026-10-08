@@ -16,5 +16,3 @@ results_*/png/
 .python/
 models/*.onnx*
 models/*.npz
-models/*.onnx*
-models/*.npz

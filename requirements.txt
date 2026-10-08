@@ -9,6 +9,7 @@ uvicorn
 httpx
 pyjwt
 pytest
+scikit-learn
 streamlit
 onnx
 onnxscript

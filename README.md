@@ -1,11 +1,29 @@
-# SecureFinger — working prototype
+# SecureFinger
 
-Privacy-preserving, cancelable fingerprint authentication:
-**ResNet18 encoder → HKDF-SHA256 key → FiLM / ROP cancelable template → CKKS encryption →
-encrypted matching on a FastAPI server → SecureContext decrypts, thresholds and signs only the
-accept/reject bit (ECDSA P-256) → server verifies signature, nonce and key version → JWT.**
+Cancelable, encrypted fingerprint authentication. Final-year B.Tech project, Department of Computer
+Science and Engineering, C.V. Raman Global University, Bhubaneswar (2026).
 
+**Authors:** Divya Agrawal, Omkaesh Kumar, Mohammad Ayaan · **Supervisor:** Dr. Ram Chandra Barik
+
+**Pipeline:** ResNet-18 + ArcFace encoder → HKDF-SHA256 per-user key → random orthogonal projection (ROP)
+cancelable template → CKKS encryption → encrypted matching on a FastAPI server, which signs the encrypted
+score → the client's secure context checks that signature, decrypts and thresholds, and signs only the
+accept/reject decision (ECDSA P-256, optionally in the Secure Enclave behind Touch ID) → JWT.
 The server never stores or sees a plaintext template or a plaintext similarity score.
+
+## Key results
+| | |
+|---|---|
+| SOCOFing test EER (subject-disjoint) | 0.027% (2 false accepts in 7,431 impostor pairs) |
+| Real multi-session data, 206 fingers / 11 sensors | 16.8% EER (nested selection); SourceAFIS minutiae: 5.8% |
+| Linkability, ISO/IEC 24745 D<->sys | FiLM 1.00 (fully linkable); ROP below the noise floor |
+| CKKS error vs plaintext | at most 1.2e-6; no decision changed |
+| Verification latency (MacBook, 96 px) | 33.8 ms median; about 59 verifications/s |
+| Automated security tests | 27 passing on Linux and macOS |
+
+Raw outputs are in [`results/`](results/README.md). The encoder, not the privacy layer, limits accuracy.
+
+![Five-tab demo: Touch ID approval and rejection](docs/demo_authenticate.png)
 
 ## Setup (Python 3.10–3.12 recommended)
 ```bash
